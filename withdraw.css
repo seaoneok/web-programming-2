@@ -1,0 +1,214 @@
+:root{
+    background-color:#ecf5ff;
+    text-align: center;
+    justify-content: center;
+    font-family:sans-serif;
+}
+.explanation{
+    font-size:1.5rem;
+    padding-top:1.2rem;
+    color: rgb(85, 85, 85);
+}
+
+[contentEditable=true]:empty:not(:focus):before{
+    color:rgb(85, 85, 85);
+    font-size:30px;
+    font-weight:lighter;
+    content:attr(data-text);
+    }
+
+.QuickLeft{
+    position:absolute;
+    top:40px;
+    left:6px;
+    font-size:22px;
+    color:rgb(121, 121, 121);
+}
+
+.LeftButtons {
+    position:absolute;
+    top:80px;
+    left: 6px;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    }
+    
+    .leftbutton {
+        margin-bottom: 75px;
+        color:white;
+        border-radius:5px;
+        background-color: rgb(34, 50, 70);
+        text-align: center;
+        justify-content: center;
+        border: 3px solid rgb(1, 8, 15);
+        line-height: 65px;
+        width:100px;
+        text-align: center;
+        font-size: 30px ;
+        cursor: pointer;
+        justify-content: center;
+        font-family: sans-serif;
+    }
+
+    .leftbutton:hover{
+        background-color: rgb(177, 183, 189);
+    }
+
+    #up100{
+        position:absolute;
+        left:46%;
+        top:10%;
+        cursor: pointer;
+    }
+    #up100:hover{
+        content:url("../images/uparrow100copyhover.png");
+    }
+
+    #up20{
+        position:absolute;
+        left:46%;
+        top:27%;
+        cursor: pointer;
+    }
+    #up20:hover{
+        content:url("../images/uparrow20copyhover.png");
+    }
+
+    #down20{
+        position:absolute;
+        left:46%;
+        /*bottom:330px; */
+        bottom:33%;
+        cursor: pointer;
+    }
+    #down20:hover{
+        content:url("../images/downarrow20copyhover.png");
+    }
+
+    #down100{
+        position:absolute;
+        left:46%;
+        /*bottom:210px; */
+        bottom:16%;
+        cursor: pointer;
+    }
+    #down100:hover{
+        content:url("../images/downarrow100copyhover.png");
+    }
+
+    #display {
+        position:absolute;
+        left:50%;
+        /*top:42%;*/
+        top:45%;
+        transform: translate( -50%, -50% );
+        width:90px;
+        padding: 10px 20px;
+        height: 25px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        background-color: white;
+        border: 1px solid;    
+        border-top: 2px solid rgb(107, 107, 107);
+        border-left: 2px solid rgb(107, 107, 107);
+        border-radius: 2px;;
+        }    
+
+.QuickRight{
+    position:absolute;
+    top:40px;
+    right:6px;
+    font-size:22px;
+    color:rgb(121, 121, 121);
+}
+
+.RightButtons {
+    position:absolute;
+    top:80px;
+    right:1px;
+    display: grid;
+    }
+    
+    .rightbutton {
+        margin-bottom: 75px;
+        color:white;
+        border-radius:5px;
+        background-color: rgb(34, 50, 70);
+        text-align: center;
+        justify-content: center;
+        border: 3px solid rgb(1, 8, 15);
+        line-height: 65px;
+        width:100px;
+        text-align: center;
+        font-size: 30px ;
+        cursor: pointer;
+        justify-content: center;
+        margin-left: 15px;
+        font-family: sans-serif;
+    }
+
+    .rightbutton:hover{
+        background-color: rgb(177, 183, 189);
+    }
+
+   .back{
+        color:white;
+        border-radius:5px;
+        background-color: rgb(253, 93, 45);
+        text-align: center;
+        justify-content: center;
+        border: 5px solid rgb(252, 80, 12);
+        border-bottom: 5px solid rgb(212, 67, 10);
+        border-right: 5px solid rgb(212, 67, 10);
+        line-height: 65px;
+        width:100px;
+        text-align: center;
+        font-size: 23px ;
+        cursor: pointer;
+        justify-content: center;
+        margin-left: 15px;
+        font-family: sans-serif;
+   }
+
+   .back:hover{
+    background-color: rgb(14, 23, 32);
+}
+
+.EnterButton {
+    position:absolute;
+    left:65%;
+    /*top:40%;*/
+    top:42%;
+    text-align: center;
+    justify-content: center;
+    }
+    
+    .EnterButton > div {
+        border-bottom: 5px solid rgb(2, 44, 11);
+        border-right: 5px solid rgb(2, 44, 11);
+    }
+    
+    .enter {
+        color:white;
+        border-radius:5px;
+        background-color: rgb(33, 199, 163);
+        text-align: center;
+        justify-content: center;
+        border: 5px solid rgb(4, 136, 15);
+        line-height: 50px;
+        width:100px;
+        text-align: center;
+        font-size: 23px ;
+        cursor: pointer;
+        justify-content: center;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        font-family: sans-serif;
+    }
+
+    .enter:hover{
+        background-color: rgb(4, 136, 15);
+    }
+        

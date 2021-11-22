@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel = "stylesheet" href="transfer.css"/>
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "Left">
+                <div class = "from">From</div>
+                <select id = "fromSelect" name = "fromAccount">
+                    <option value =  "none">Choose an Account</option>
+                    <option value= "1234567890123456" > 1234567890123456 </option>
+                </select>
+            </div>
+            <div class = "Right">
+                <div class = "to">To</div>
+                <select id = "toSelect" name = "toAccount">
+                    <option value =  "none">Choose an Account</option>
+                    <option value="1234567887654321">1234567887654321</option>
+                </select>
+            </div>
+            <div class = "input">
+                <div id = "display" contentEditable=false data-text="$0000.00" ></div>
+                <div class="buttons">
+                        <div class = "button">1</div>
+                        <div class = "button">2</div>
+                        <div class = "button">3</div>
+                        <div class = "button">4</div>
+                        <div class = "button">5</div>
+                        <div class = "button">6</div>
+                        <div class = "button">7</div>
+                        <div class = "button">8</div>
+                        <div class = "button">9</div>
+                        <div class = "button">0</div>
+                        <div class = "button">.</div>
+                        <div class = "button" id = "delete">Del</div>
+                </div>
+                <div class="enterButtons">
+                    <div class = "enterButton" id = "enter">Enter</div>
+                </div>
+            </div>
+            <div class = "backPage">
+                <div class = "backButton" id = "back">Back</div>
+            </div>
+        <script src = "transfer.js"></script>
+    </body>
+</html>

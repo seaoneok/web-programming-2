@@ -1,0 +1,89 @@
+:root{
+    background-color:#ecf5ff;
+    text-align: center;
+    justify-content: center;
+    font-family:sans-serif;
+}
+
+.Name{
+    font-size: 3rem;
+    color: #56a5eb;
+}
+
+#amount {
+    position:absolute;
+    top:6%;
+    left:45%;
+    font-size: 2.4rem;
+    font-weight: initial;
+    color: rgb(85, 85, 85);
+}
+#from{
+    position:absolute;
+    top:14%;
+    left: 34%;
+    font-size:2.4rem;
+    font-weight:initial;
+    color: rgb(85, 85, 85);
+}
+#to{
+    position:absolute;
+    top:18%;
+    left:37.5%;
+    font-size:2.4rem;
+    font-weight:initial;
+    color: rgb(85, 85, 85);
+    padding-top:1.2rem;
+}
+
+.select {
+    padding-right: 30%;
+    text-align: center;
+    justify-content: center;
+    display: inline;
+    }
+    
+    .button {
+        color:rgb(245, 245, 245);
+        border-radius:5px;
+        text-align: center;
+        justify-content: center;
+        line-height: 53px;
+        width:100px;
+        text-align: center;
+        font-size: 23px ;
+        cursor: pointer;
+        justify-content: center;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    #yes{
+        position:absolute;
+        top:34%;
+        left:39%;
+        background-color: rgb(33, 199, 163);
+        border-bottom: 3px solid rgb(2, 44, 11);
+        border-right: 3px solid rgb(2, 44, 11);
+        border-left: 3px solid rgb(4, 136, 15);
+        border-top: 3px solid rgb(4, 136, 15);
+    }
+    #yes:hover{
+    background-color:rgb(4, 136, 15);
+    }
+
+    #no{
+        position:absolute;
+        top:34%;
+        left:49%;
+        background-color: rgb(253, 93, 45);
+        border-top: 3px solid rgb(248, 77, 24);
+        border-left: 3px solid rgb(248, 77, 24);
+        border-bottom: 3px solid rgb(212, 67, 10);
+        border-right: 3px solid rgb(212, 67, 10);
+    }
+    #no:hover{
+        background-color:rgb(37, 13, 6);
+    }
+
+

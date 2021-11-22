@@ -1,0 +1,182 @@
+:root{
+    text-align: center;
+    justify-content: center;
+    font-family:sans-serif;
+}
+
+.from{
+    position:absolute;
+    top:3%;
+    left:6%;
+    font-size: 2.5rem;
+    color: #56a5eb;
+}
+#fromSelect{
+    text-align:center;
+    border-radius: 5px;
+    position:absolute;
+    top:10%;
+    left:4%;
+    font-size:15px;
+    width:180px;
+    height: 50px;
+    color:white;
+    background-color: rgb(46, 72, 104);
+    border: 2px solid rgb(1, 8, 15);
+}
+
+.to{ 
+    position:absolute;
+    top:3%;
+    right:9%;
+    font-size: 2.5rem;
+    color: #56a5eb;
+}
+
+#toSelect{
+    text-align:center;
+    border-radius: 5px;
+    position:absolute;
+    top:10%;
+    right:4%;
+    font-size:15px;
+    width:180px;
+    height: 50px;
+    color:white;
+    background-color: rgb(46, 72, 104);
+    border: 2px solid rgb(1, 8, 15);
+}
+
+.input {
+    padding-left:42%;
+    width: 300px;
+    justify-content: center;
+    text-align:center;
+}
+
+#display {
+width:180px;
+padding: 10px 20px;
+height: 25px;
+margin-top: 15px;
+margin-bottom: 20px;
+font-size: 18px;
+background-color: white;
+border: 1px solid;    
+border-top: 2px solid rgb(107, 107, 107);
+border-left: 2px solid rgb(107, 107, 107);
+border-radius: 2px;;
+}
+
+
+[contentEditable=false]:empty:not(:focus):before{
+    color:rgb(185, 184, 184);
+    font-size:30px;
+    content:attr(data-text);
+    position:absolute;
+    top:3.5%;
+    left:45.5%;
+    }
+    
+
+.buttons {
+padding-right: 30%;
+text-align: center;
+justify-content: center;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.button {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgb(107, 107, 107);
+    line-height: 50px;
+    width:50px;
+    text-align: center;
+    font-size: 23px ;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+}
+
+#delete{
+    color:red;
+}
+
+.enterButtons {
+    padding-right: 30%;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 3fr;
+}
+
+.enterButtons > div {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.enterButton {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgb(107, 107, 107);
+    line-height: 50px;
+    width:190px;
+    text-align: center;
+    font-size: 23px ;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+}
+
+#enter{
+    color: green;
+}
+
+
+.backPage {
+    padding-left:60%;
+    padding-top:1%;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    }
+    
+    .backPage > div {
+        border-bottom: 5px solid rgb(212, 67, 10);
+        border-right: 5px solid rgb(212, 67, 10);
+    }
+    
+    .backButton {
+        color:white;
+        border-radius:5px;
+        background-color: rgb(253, 93, 45);
+        text-align: center;
+        justify-content: center;
+        border: 5px solid rgb(252, 80, 12);
+        line-height: 55px;
+        width:100px;
+        text-align: center;
+        font-size: 23px ;
+        cursor: pointer;
+        justify-content: center;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        font-family: sans-serif;
+    }
+
+    .backButton:hover{
+        background-color: rgb(37, 13, 6);
+    }

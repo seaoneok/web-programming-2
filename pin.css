@@ -1,0 +1,115 @@
+:root{
+    background-color:#ecf5ff;
+    text-align: center;
+    justify-content: center;
+    font-family:sans-serif;
+}
+
+.explanation{
+    font-size:1.5rem;
+    padding-top:1.2rem;
+    color: rgb(85, 85, 85);
+}
+
+.input {
+padding-left:42%;
+width: 300px;
+justify-content: center;
+text-align:center;
+}
+
+#display {
+width:180px;
+padding: 10px 20px;
+height: 25px;
+margin-top: 15px;
+margin-bottom: 20px;
+font-size: 18px;
+background-color: white;
+border: 1px solid;    
+border-top: 2px solid rgb(107, 107, 107);
+border-left: 2px solid rgb(107, 107, 107);
+border-radius: 2px;;
+}
+
+
+[contentEditable=false]:empty:not(:focus):before{
+    color:rgb(185, 184, 184);
+    font-size:30px;
+    position:absolute;
+    top:11%;
+    left:45%;
+    content:attr(data-text);
+    }
+    
+
+.buttons {
+padding-right: 30%;
+text-align: center;
+justify-content: center;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-bottom: 2px solid rgb(107, 107, 107);
+    border-right: 2px solid rgb(107, 107, 107);
+}
+
+.button {
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    justify-content: center;
+    border: 1px solid rgb(107, 107, 107);
+    line-height: 70px;
+    width:70px;
+    text-align: center;
+    font-size: 23px ;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+}
+#enter{
+color: green;
+}
+#delete{
+color:red;
+}
+
+.returnCard {
+    padding-left:65%;
+    padding-top: 1%;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .returnCard > div {
+        border-bottom: 5px solid rgb(212, 67, 10);
+        border-right: 5px solid rgb(212, 67, 10);
+    }
+    
+    .returnButton {
+        color:white;
+        border-radius:5px;
+        background-color: rgb(253, 93, 45);
+        text-align: center;
+        justify-content: center;
+        border: 5px solid rgb(252, 80, 12);
+        line-height: 60px;
+        width:180px;
+        text-align: center;
+        font-size: 23px ;
+        cursor: pointer;
+        justify-content: center;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        font-family: sans-serif;
+    }
+
+    .returnButton:hover{
+        background-color: rgb(14, 23, 32);
+    }

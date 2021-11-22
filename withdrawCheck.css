@@ -1,0 +1,63 @@
+:root{
+    background-color:#ecf5ff;
+    text-align: center;
+    justify-content: center;
+    font-family:sans-serif;
+}
+
+.explanation{
+    font-size:1.5rem;
+    padding-top:1.2rem;
+    color: rgb(85, 85, 85);
+}
+
+.checkIMG{
+    position:absolute;
+    top:15%;
+    left:40%;
+}
+
+#home{
+    background-color: rgb(45, 66, 92);
+    color:white;
+    border-radius:0.3rem;
+    line-height: 50px;
+    width:80px;
+    position:absolute;
+    top:63%;
+    left:32%;
+    cursor: pointer;
+}
+#home:hover{
+    background-color: rgb(37, 44, 68);
+}
+
+#again{
+    background-color: rgb(45, 66, 92);
+    color:white;
+    border-radius:0.3rem;
+    line-height: 50px;
+    width:250px;
+    position:absolute;
+    top:63%;
+    left:42%;
+    cursor: pointer;
+}
+#again:hover{
+    background-color: rgb(37, 44, 68);
+}
+
+#return{
+    background-color: rgb(253, 93, 45);
+    color:white;
+    border-radius:0.3rem;
+    line-height: 50px;
+    width:120px;
+    position:absolute;
+    top:63%;
+    left:64%;
+    cursor: pointer;
+}
+#return:hover{
+    background-color: rgb(37, 13, 6);
+}
